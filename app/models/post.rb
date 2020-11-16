@@ -5,6 +5,7 @@ class Post < ActiveRecord::Base
   validates :category, presence: true, inclusion: { in: %w(Fiction non-fiction) }
   validates :clickbait
   
-  
+  def clickbait
+    
   
 end
