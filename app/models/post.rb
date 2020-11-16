@@ -4,4 +4,7 @@ class Post < ActiveRecord::Base
   validates :summary, presence: true, length: { maximum: 250 }
   validates :category, presence: true, inclusion: { in: %w(Fiction non-fiction) }
   validates :clickbait
+  
+  
+  
 end
