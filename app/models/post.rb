@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
   validates :title, presence: true 
-  validates :content, presence: true, length: 
+  validates :content, presence: true, length: { minimum
   
 end
